@@ -29,6 +29,7 @@ void my_dgemv(int n, double* A, double* x, double* y) {
    #pragma omp parallel for
    for(int i=0;i<n;i++){
       t=y[i];
+      #pragma omp parallel for reduction(+:t)
       for(int j=0;j<n;j++){
          t+=A[i*n+j]*x[j];
       }
