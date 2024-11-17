@@ -1,0 +1,13 @@
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:12:17: missed: couldn't vectorize loop
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:23: missed: not vectorized: complicated access pattern.
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:14:23: optimized: loop vectorized using 32 byte vectors
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:14:23: optimized: loop vectorized using 16 byte vectors
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Analysis failed with vector mode V4DF
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** The result for vector mode V32QI would be the same
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Analysis failed with vector mode V16QI
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/j/joecool/vmmulompharness/dgemv-vectorized.cpp:15:14: note: ***** Analysis failed with vector mode V4QI
